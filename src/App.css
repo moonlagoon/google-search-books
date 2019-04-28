@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(8, 8, 68);
+}
+
+div.navbar-header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+div.well{
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+input.form-control {
+  height: 30px;
+  width: 150px;
+}
+
+div.col-lg-11.col-md-11.col-xs-11 {
+  padding: 20px;
+}
+
+.App {
+  background-color: white;
+  width: 900px;
+  position: absolute;
+  left:20%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a.collapsed {
+  position: relative;
+  left: 20px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+hr {
+  margin: 20px;
+}
+
+img {
+  position: relative;
+  left: 30px;
+  width: 170px;
+  height: 250px;
+}
+
+ul.list-group {
+}
+
