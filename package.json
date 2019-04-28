@@ -1,9 +1,11 @@
 {
+  "homepage": "https://moonlagoon.github.io/google-search-books",
   "name": "bookfinder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
+    "gh-pages": "^2.0.1",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4"
@@ -12,9 +14,11 @@
     "react-scripts": "0.9.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
 }
